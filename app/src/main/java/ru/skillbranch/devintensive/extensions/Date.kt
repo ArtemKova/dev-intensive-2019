@@ -68,44 +68,7 @@ var stat1="Никогда не был   "
 //    var date2 = LocalDate.parse(loc1)
 
     stat1=stat1+h+"     "+loc1+dat1
-//    var time1 = LocalTime.parse(loc)
-//    var time2 = LocalTime.parse(loc1)
-//    var y= date2.year-date1.year
-//   // var m = (date2.dayOfYear-date1.dayOfYear)/30
-//    var m1 = when (date2.month){
-//        Month.JANUARY -> 1
-//        Month.FEBRUARY->2
-//        Month.MARCH -> 3
-//        Month.APRIL ->4
-//        Month.MAY ->5
-//        Month.JUNE ->6
-//        Month.JULY ->7
-//        Month.AUGUST ->8
-//        Month.SEPTEMBER ->9
-//        Month.OCTOBER ->10
-//        Month.NOVEMBER ->11
-//        Month.DECEMBER ->12
-//    }
-//    var m2 = when (date1.month){
-//        Month.JANUARY -> 1
-//        Month.FEBRUARY->2
-//        Month.MARCH -> 3
-//        Month.APRIL ->4
-//        Month.MAY ->5
-//        Month.JUNE ->6
-//        Month.JULY ->7
-//        Month.AUGUST ->8
-//        Month.SEPTEMBER ->9
-//        Month.OCTOBER ->10
-//        Month.NOVEMBER ->11
-//        Month.DECEMBER ->12
-//    }
-//    var d=date2.dayOfYear-date1.dayOfYear
-//    var m=m1-m2
-//    var h=(time2.hour-time1.hour)
-//    var min=(time2.minute-time1.minute)
-//    var s = (time2.second-time1.second)
-//
+
     if (y>1) stat1="более года назад"
     else if (d>1) stat1="$d дней назад"
     else if (h>22) stat1="$h часов назад"
